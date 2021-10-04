@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator-JS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="row">
+    <h1 id="title">Hellooooooo!</h1>
+    <form id="Form" name="calculator">
+      <input id="view" type="text" disabled name="view">
+      <input type="button" value="AC" onclick="allClear()">
+      <input type="button" value="D" onclick="del()">
+      <input type="button" value="%" onclick="calc(this.value)">
+      <input type="button" value="/" onclick="calc(this.value)">
+      <input type="button" value="1" onclick="add(this.value)">
+      <input type="button" value="2" onclick="add(this.value)">
+      <input type="button" value="3" onclick="add(this.value)">
+      <input type="button" value="*" onclick="calc(this.value)">
+      <input type="button" value="4" onclick="add(this.value)">
+      <input type="button" value="5" onclick="add(this.value)">
+      <input type="button" value="6" onclick="add(this.value)">
+      <input type="button" value="+" onclick="calc(this.value)">
+      <input type="button" value="7" onclick="add(this.value)">
+      <input type="button" value="8" onclick="add(this.value)">
+      <input type="button" value="9" onclick="add(this.value)">
+      <input type="button" value="-" onclick="calc(this.value)">
+      <input type="button" value="." onclick="calc(this.value)">
+      <input type="button" value="0" onclick="add(this.value)">
+      <input type="button" value="=" onclick="equal()">
+    </form>
+    <div class="footer">
+      <div>
+
+        <a href="https://www.instagram.com/amirmasoud_dev" target="_blank">
+          <i class="fa-3x fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <hr>
+      </div>
+      <div>
+        <a href="https://github.com/moxsavi" target="_blank">
+          <i class="fa-3x fa fa-github " aria-hidden="true"></i>
+        </a>
+        <hr>
+      </div>
+      <div>
+        <a href="mailto: amirmasouddev@gmail.com" target="_blank">
+          <i class="fa-3x fa fa-google  " aria-hidden="true"></i>
+        </a>
+        <hr>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/amirmasoud-dev/" target="_blank">
+          <i class="fa-3x fa fa-linkedin  " aria-hidden="true"></i>
+        </a>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="src.js"></script>
+</body>
+
+</html>
